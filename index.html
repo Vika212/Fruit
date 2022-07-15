@@ -7,17 +7,17 @@
         <header>
         <h1 class="logo"> FRUIT</h1>
         <nav>
-            <a class="nav-link" href="">Головна</a>
-            <a class="nav-link" href="">Меню</a>
-            <a class="nav-link" href="">Акції</a>
-            <a class="nav-link" href="">Про нас</a>
-            <a class="nav-link" href="">Контакти</a>
+            <a class="nav-link" href="#info">Головна</a>
+            <a class="nav-link" href="#menu">Меню</a>
+            <a class="nav-link" href="#sale">Акції</a>
+            <a class="nav-link" href="#about">Про нас</a>
+            <a class="nav-link" href="#footer-info">Контакти</a>
         </nav>
         </header>
         <main>
             <section class="info">
                <div class="info-div">
-                   <h1>доставка</h1>
+                   <h1 id ="info" >Доставка</h1>
                    <p>Знаєш що замовити, натискай на кнопку і ми тобі зателефонуємо. Або переходь до меню
                    </p>
                 <article class="info-butt">
@@ -29,7 +29,7 @@
             </section>
  
             <section class="menu">
-                <h2>набори</h2>
+                <h2 id ="menu" >Набори</h2>
                 <div class="menu-div">
                     <img class="menu-img" src="https://fruit-boutique.com.ua/content/images/33/469x480l50nn0/88565351095641.jpg">
                     <article class="menu-info">
@@ -56,17 +56,18 @@
                 </div>
             </section>
             <section class="sale">
-                <h2>Акція</h2>
+                <h2 id= "sale">Акція</h2>
                 <div class="sale-div">
                     <img class="sale-img" src="data:image/png;base64,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">
                 </div>
             </section>
              <section class="about">
-                <h2>як нас знайти</h2>
+                <h2 id ="about" >Як нас знайти</h2>
             </section>
         </main>
         <footer>
            <div class="footer-info">
+               <h2 id = "footer-info"> Контакти </h2>
                <h4>+38(096)-10-06-584</h4>
                <p>місто Львів</p>
                <p>вул. Богдана Хмельницького 14</p>
